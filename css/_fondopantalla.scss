@@ -1,0 +1,64 @@
+body {
+      &.imagenindex {
+        background-image: url("../assets/images/index7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+      }
+      &.imagenindexempresa {
+        background-image: url("../assets/images/empresa4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        /*Footer abajo siempre cuando el body tiene poco contenido*/
+        display: grid;
+        min-height: 100vh;
+        grid-template-rows: auto 1fr auto;  
+      }
+      
+      &.imagenindexservicios {
+        background-image: url("../assets/images/index7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        /*Footer abajo siempre cuando el body tiene poco contenido*/
+        display: grid;
+        min-height: 100vh;
+        grid-template-rows: auto 1fr auto;  
+      }
+      
+      &.imagenindexcontacto {
+        background-image: url("../assets/images/contacto1.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        /*Footer abajo siempre cuando el body tiene poco contenido*/
+        display: grid;
+        min-height: 100vh;
+        grid-template-rows: auto 1fr auto;
+      }
+
+      &.imagenindexservice {
+        background-image: url("../assets/images/contacto1.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        /*Footer abajo siempre cuando el body tiene poco contenido*/
+        display: grid;
+        min-height: 100vh;
+        grid-template-rows: auto 1fr auto;
+      }
+
+      
+
+
+
+
+
+}
+

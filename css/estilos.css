@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+
+body.imagenindex {
+  background-image: url("../assets/images/index7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  
+}
+body.imagenindexempresa {
+  background-image: url("../assets/images/empresa4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  /*Footer abajo siempre cuando el body tiene poco contenido*/
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+body.imagenindexservicios {
+  background-image: url("../assets/images/fondo\ taller\ 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  /*Footer abajo siempre cuando el body tiene poco contenido*/
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+body.imagenindexcontacto {
+  background-image: url("../assets/images/contacto1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  /*Footer abajo siempre cuando el body tiene poco contenido*/
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+body.imagenindexservice {
+  background-image: url("../assets/images/fondo\ taller\ 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  /*Footer abajo siempre cuando el body tiene poco contenido*/
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.container .bgimage {
+  background-color: #d8e4df;
+}
+.container .bgimage .cardimage {
+  height: 200px;
+  margin: 10px;
+}
+.container .bgimage .card-body ::-moz-selection {
+  background-color: #42d497;
+}
+.container .bgimage .card-body ::selection {
+  background-color: #42d497;
+}
+
+.footer {
+  background-color: #42d497;
+  text-align: center;
+  padding: 8px;
+  justify-content: center;
+}
+
+/*probando map y extend placeholder(variables)*/
+.fa-facebook {
+  background-color: rgb(138, 166, 219);
+}
+
+.fa-instagram {
+  background-color: rgb(196, 157, 145);
+}
+
+.fa-whatsapp {
+  background-color: rgb(88, 156, 60);
+}
+
+.colortextempresa {
+  color: #f8e808;
+  font-weight: bold;
+}
+.colortextempresa .colortextempresa ::-moz-selection {
+  background-color: #b3a920;
+}
+.colortextempresa .colortextempresa ::selection {
+  background-color: #b3a920;
+}
+
+.container-fluid a {
+  transition: all 1s;
+}
+.container-fluid .navbar-brand:hover {
+  transform: scale(1.1);
+}
+.container-fluid .navbar-nav a:hover {
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+}
+
+.fa-facebook, .fa-whatsapp, .fa-instagram {
+  width: 30px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.fa-facebook:hover, .fa-whatsapp:hover, .fa-instagram:hover {
+  background-color: aliceblue;
+}
+
+/*probando mixin
+@mixin tamanos($ancho,$alto) {
+    width: $ancho;
+    height: $alto;
+
+}
+
+.form-label {
+    @include tamanos(35px, 35px);
+
+}
+*//*# sourceMappingURL=estilos.css.map */

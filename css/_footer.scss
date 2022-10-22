@@ -1,0 +1,29 @@
+.footer {
+    background-color:#42d497;
+    text-align: center;
+    padding: 8px;
+    justify-content: center;
+  }
+
+  /*probando map y extend placeholder(variables)*/
+  $redes: (
+  facebook: rgb(138, 166, 219),
+  instagram: rgb(196, 157, 145),
+  whatsapp: rgb(88, 156, 60),
+ );
+
+ @each $redsocial, $color in $redes {
+  .fa-#{$redsocial} {
+    background-color: $color;
+  }
+}
+
+.fa-facebook, .fa-whatsapp, .fa-instagram {
+  @extend %iconitos;
+}
+
+
+  
+
+
+
