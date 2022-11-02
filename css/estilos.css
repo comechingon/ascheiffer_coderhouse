@@ -12,7 +12,6 @@ body.imagenindex {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  
 }
 body.imagenindexempresa {
   background-image: url("../assets/images/empresa4.jpg");
@@ -26,7 +25,7 @@ body.imagenindexempresa {
   grid-template-rows: auto 1fr auto;
 }
 body.imagenindexservicios {
-  background-image: url("../assets/images/fondo\ taller\ 2.jpg");
+  background-image: url("../assets/images/index7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -48,7 +47,7 @@ body.imagenindexcontacto {
   grid-template-rows: auto 1fr auto;
 }
 body.imagenindexservice {
-  background-image: url("../assets/images/fondo\ taller\ 2.jpg");
+  background-image: url("../assets/images/contacto1.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
