@@ -58,6 +58,8 @@ body.imagenindexservice {
   grid-template-rows: auto 1fr auto;
 }
 
+
+
 .container .bgimage {
   background-color: #d8e4df;
 }
@@ -103,6 +105,10 @@ body.imagenindexservice {
   background-color: #b3a920;
 }
 
+.colortextproductos {
+  color: #f8e808;
+}
+
 .container-fluid a {
   transition: all 1s;
 }
@@ -123,6 +129,7 @@ body.imagenindexservice {
 .fa-facebook:hover, .fa-whatsapp:hover, .fa-instagram:hover {
   background-color: aliceblue;
 }
+
 
 /*probando mixin
 @mixin tamanos($ancho,$alto) {

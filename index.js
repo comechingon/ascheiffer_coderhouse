@@ -1,5 +1,5 @@
 
-//Primera entrega
+/*Primera entrega
 
 
 let marcaVehiculo = prompt("Ingrese la marca de su vehículo")
@@ -18,7 +18,7 @@ if (anioVehiculo == anioActual || cantidadkilometros <= 10000) {
     
 } /*else { 
     alert("En las próximas 24hs le enviaremos un presupuesto con los trabajos a realizar a su casilla de correo");
-}*/
+}
 
 
 anioVehiculo = 0
@@ -46,9 +46,9 @@ function calcularServicePremium(aceite, filtros, correa, lavado, encerado) {
 const premium = aceite + filtros + correa + lavado + encerado;
 console.log(premium);
 
-}*/
+}
 
-/*const formulario = document.getElementById("formulario")
+const formulario = document.getElementById("formulario")
 
  const inputNombre = document.createElement("input")
 
@@ -56,7 +56,37 @@ console.log(premium);
 
 
 
- //Segunda Entrega: Arrays, objetos, metodos.
+ 
+ //Tercera Entrega: se agrega Dom, json, storage, evento.
+
+const inputNombre = document.getElementById('nombre')
+const inputApellido = document.getElementById('apellido')
+const inputVehiculo = document.getElementById('vehiculo')
+const inputModelo = document.getElementById('modelo')
+const botonDatos = document.getElementById('botonDatos')
+
+//evento
+botonDatos.onclick = () => {
+    const usuario = {
+        nombre: inputNombre.value,
+        apellido: inputApellido.value,
+        vehiculo: inputVehiculo.value,
+        modelo: inputModelo.value
+    }
+
+    inputNombre.value = ''
+    inputApellido.value = ''
+    inputVehiculo.value = ''
+    inputModelo.value = ''
+
+    console.log(usuario)
+
+    //storage json
+    localStorage.setItem('infoUsuario' ,JSON.stringify(usuario))
+
+
+}
+
 
 
  const productos = []
@@ -87,17 +117,20 @@ console.log(premium);
 
 console.log(productos)
 
-//dom
 const selectTag = document.getElementById('lista')
 
 productos.forEach(producto=>{
     const optionTag = document.createElement('option')
-    optionTag.innerText = '${producto.name}: $${producto.price}'
+    optionTag.innerText = `${producto.name}: $${producto.price}`
     selectTag.append(optionTag)
 })
 
 
- 
+
+
+
+
+
 
  
 
